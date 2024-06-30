@@ -1,0 +1,17 @@
+html5lib
+BeautifulSoup4
+altair
+streamlit
+pandas
+streamlit_option_menu==0.3.2
+st_pages==0.3.5
+streamlit-folium>=0.6
+lxml>=4.6.2
+folium>=0.11
+pygithub >= 1.58.0
+gspread>=5.0.0
+gspread_dataframe
+oauth2client
+openpyxl
+scikit-learn>=0.18
+pyairtable>=1.5.0
