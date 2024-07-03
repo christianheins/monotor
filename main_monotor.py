@@ -381,7 +381,7 @@ def main():
 
                 .gigs-table td:first-child {
                     font-weight: bold;
-                    color: #333;
+                    color: black;
                 }
             </style>
         </head>
