@@ -113,8 +113,8 @@ def main():
     #)
     #name, authentication_status, username = authenticator.login(location="main")
 
-
-
+    image = "images/verguerete4-RED.png"
+    st.image(image)
     with st.sidebar:
         #st.write(f'Welcome *{name}*')
         #authenticator.logout('Logout', 'main')
