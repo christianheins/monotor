@@ -338,7 +338,7 @@ def main():
 
                 h1 {
                     text-align: center;
-                    color: #333;
+                    color: black;
                 }
 
                 .gigs-table {
