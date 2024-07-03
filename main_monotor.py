@@ -288,26 +288,6 @@ def main():
 
         #with open(r'/Users/christianheins/Documents/Coding/Projects/Personal_finance/pages/style.css') as f:
         #    st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
-        """
-        try:
-            plyer.notification.notify(title='Streamlit', message=str("Main page reloaded"), timeout=5)
-        except:
-            def sendslack():
-                # Eliminate the need to check for ssl
-                #ssl._create_default_https_context = ssl._create_unverified_context
-                #Create a slack client and define todays date or moment date
-                token_slack = "xoxb-5139171635815-6832465209141-MAnpqSCUStVzHxv65aGINVQ1"
-                #client = slack.WebClient(token=token_slack)
-
-
-                #slack_token = os.environ["SLACK_BOT_TOKEN"]
-                client = WebClient(token=token_slack)
-
-                #Tell the client to select a channel and include the specified text.
-                client.chat_postMessage(channel='#page_reloads', text=f"Main page reloaded at: {timestamp_berlin}")
-                print("Sending slack message")
-            sendslack()
-        """
 
 if __name__ == "__main__":
     main()
