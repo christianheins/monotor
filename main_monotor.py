@@ -112,8 +112,114 @@ def main():
     #    config['preauthorized']
     #)
     #name, authentication_status, username = authenticator.login(location="main")
+    urls = [
+                "https://www.youtube.com/watch?v=CDArwuz6Uic",
+                "https://soundcloud.com/ackssek/gorillaz-clint-eastwood-jack-essek-edit?si=21ebd52700cc4b6db9ab68ef11f71d6c&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
+            ]
+    #url = "https://soundcloud.com/ackssek/gorillaz-clint-eastwood-jack-essek-edit?si=21ebd52700cc4b6db9ab68ef11f71d6c&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
+    #@st.experimental_fragment
+    #def return_music_player(url):
+    #    st.subheader("Track of the week")
+    #    st_player(url)
+        #st_player("https://soundcloud.com/ackssek/gorillaz-clint-eastwood-jack-essek-edit?si=21ebd52700cc4b6db9ab68ef11f71d6c&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing")
+    #return_music_player(url=url)
+    #st.divider()
+    st.subheader("Track o the Week.")
+    @st.experimental_fragment
+    def return_soundcloudembed():
+        html = """
+        <iframe width="100%" height="220" scrolling="yes" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1671680115&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/tellel" title="Tellel" target="_blank" style="color: #cccccc; text-decoration: none;">Tellel</a> · <a href="https://soundcloud.com/tellel/turu-anasi-bamboo" title="Turu Anasi - Bamboo" target="_blank" style="color: #cccccc; text-decoration: none;">Turu Anasi - Bamboo</a></div>
+        """
+        components.html(html, height=250)
+        #st.divider()
+    return_soundcloudembed()
+    # right
+    link2 = "https://soundcloud.com/ackssek/gorillaz-clint-eastwood-jack-essek-edit?si=21ebd52700cc4b6db9ab68ef11f71d6c&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
+    #with cols[1]:
+    #    components.iframe(link2, height=400, width=500)
+    @st.experimental_fragment
+    def return_music_player(url):
+        with elements("media_player"):
 
+            # Play video from many third-party sources: YouTube, Facebook, Twitch,
+            # SoundCloud, Streamable, Vimeo, Wistia, Mixcloud, DailyMotion and Kaltura.
+            #
+            # This element is powered by ReactPlayer (GitHub link below).
+
+            from streamlit_elements import media
+
+            media.Player(url=url, controls=True)
+    #return_music_player(url=urls[1])
     image = "images/verguerete4-RED.png"
+
+    html_css_template = """
+    <style>
+    * {{
+        box-sizing: border-box;
+    }}
+    
+    :root {{
+        --gold: #ffb338;
+        --light-shadow: #77571d;
+        --dark-shadow: #3e2904;
+    }}
+    body {{
+        margin: 0;
+    }}
+    .wrapper {{
+        background: transparent;
+        display: grid;
+        grid-template-areas: 'overlap';
+        place-content: left;
+        margin-left:3%;
+        text-transform: uppercase;
+    }}
+    .wrapper > div {{
+        background-clip: text;  
+        -webkit-background-clip: text;
+        color: #363833;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 900;
+        font-size: 35px;
+        grid-area: overlap;
+        letter-spacing: 4px;
+        -webkit-text-stroke: 4px transparent;
+    }}
+    div.bg {{
+        background-image: repeating-linear-gradient( 105deg, 
+        var(--gold) 0% , 
+        var(--dark-shadow) 5%,
+        var(--gold) 12%);
+        color: transparent;
+        filter: drop-shadow(5px 15px 15px black);
+        transform: scaleY(1.05);
+        transform-origin: top;
+        text-align: left;
+    }}
+    div.fg{{
+        background-image: repeating-linear-gradient( 5deg,  
+        var(--gold) 0% , 
+        var(--light-shadow) 23%, 
+        var(--gold) 31%);
+        color: #1e2127;
+        transform: scale(1);
+        text-align: left;
+    }}
+    </style>
+    
+    <div class="wrapper">
+        <div class="bg"> {} </div>
+        <div class="fg"> {} </div>
+    </div>
+    """
+
+    # Word to be inserted as variable
+    variable_word = "MonoTor"
+
+    # Format the HTML string with the variable word
+    html_css = html_css_template.format(variable_word, variable_word)
+    st.html(html_css)
+
     st.image(image, use_column_width=True)
 
     st.html("""
