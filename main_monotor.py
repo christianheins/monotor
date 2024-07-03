@@ -116,8 +116,8 @@ def main():
 
 
     with st.sidebar:
-        st.write(f'Welcome *{name}*')
-        authenticator.logout('Logout', 'main')
+        #st.write(f'Welcome *{name}*')
+        #authenticator.logout('Logout', 'main')
 
         ft = """
         <style>
