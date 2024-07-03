@@ -28,8 +28,8 @@ def main():
 
     # Front End
     import streamlit as st
-    from streamlit_option_menu import option_menu
-    from streamlit_extras.stylable_container import stylable_container
+    #from streamlit_option_menu import option_menu
+    #from streamlit_extras.stylable_container import stylable_container
     from st_pages import Page, show_pages, add_page_title, show_pages_from_config
     #from st_aggrid import AgGrid
     #from st_aggrid.grid_options_builder import GridOptionsBuilder
@@ -42,7 +42,7 @@ def main():
     import altair as alt
     import plotly.express as px
     import json
-    #from credentials import cres
+    #from credentials import cresas
 
 
     ##ads

@@ -20,3 +20,4 @@ slack
 slack_sdk
 sqlalchemy
 supabase
+st-pages
