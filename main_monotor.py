@@ -191,7 +191,7 @@ def main():
         color: #363833;
         font-family: 'Poppins', sans-serif;
         font-weight: 900;
-        font-size: 178px;
+        font-size: 80px;
         grid-area: overlap;
         letter-spacing: 4px;
         -webkit-text-stroke: 4px transparent;
