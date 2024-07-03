@@ -42,7 +42,7 @@ def main():
     import altair as alt
     import plotly.express as px
     import json
-    #from credentials import cresas
+    #from credentials import cre
 
 
     ##ads
