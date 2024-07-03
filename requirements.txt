@@ -19,3 +19,4 @@ fake-useragent
 slack
 slack_sdk
 sqlalchemy
+supabase
