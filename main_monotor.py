@@ -172,7 +172,7 @@ def main():
         background: transparent;
         display: grid;
         grid-template-areas: 'overlap';
-        place-content: left;
+        place-content: center;
         margin-left:3%;
         text-transform: uppercase;
     }}
