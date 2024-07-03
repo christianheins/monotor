@@ -295,7 +295,7 @@ def main():
                 <div class="artist-card">
                     <img src="https://github.com/christianheins/monotor/blob/main/images/46022236_270547913605848_7412623757248725390_n.jpg?raw=true" alt="Artist 1" class="artist-image">
                     <div class="artist-info">
-                        <h2 class="artist-name">Artist 1</h2>
+                        <h2 class="artist-name">Mono Heins</h2>
                         <p class="artist-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor.</p>
                     </div>
                 </div>
@@ -303,7 +303,7 @@ def main():
                 <div class="artist-card">
                     <img src="https://github.com/christianheins/monotor/blob/main/images/355400358_655713002694553_2090091328426271917_n.jpg?raw=true" alt="Artist 2" class="artist-image">
                     <div class="artist-info">
-                        <h2 class="artist-name">Artist 2</h2>
+                        <h2 class="artist-name">Tomeitou</h2>
                         <p class="artist-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor.</p>
                     </div>
                 </div>
@@ -311,7 +311,7 @@ def main():
                 <div class="artist-card">
                     <img src="https://github.com/christianheins/monotor/blob/main/images/435039739_339982482390138_4821613555573842117_n.jpg?raw=true" alt="Artist 3" class="artist-image">
                     <div class="artist-info">
-                        <h2 class="artist-name">Artist 3</h2>
+                        <h2 class="artist-name">Sam</h2>
                         <p class="artist-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor.</p>
                     </div>
                 </div>
