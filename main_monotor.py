@@ -58,7 +58,7 @@ def main():
     path = "/Users/christianheins/Documents/Coding/Projects/Personal_finance/modules/pages.toml"
     path = ".streamlit/pages.toml"
 
-    show_pages_from_config(path)
+    #show_pages_from_config(path)
 
     # Importing credentials
     with open('/Users/christianheins/Documents/Coding/Projects/Personal_finance/credentials/credentials.yaml') as file:
