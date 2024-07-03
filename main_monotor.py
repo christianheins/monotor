@@ -115,6 +115,13 @@ def main():
 
     image = "images/verguerete4-RED.png"
     st.image(image)
+
+    st.html("""
+
+        <img src="images/verguerete4-RED.png>
+
+    """)
+
     with st.sidebar:
         #st.write(f'Welcome *{name}*')
         #authenticator.logout('Logout', 'main')
