@@ -114,7 +114,7 @@ def main():
     #name, authentication_status, username = authenticator.login(location="main")
 
     image = "images/verguerete4-RED.png"
-    st.image(image)
+    st.image(image, use_column_width=True)
 
     st.html("""
 
