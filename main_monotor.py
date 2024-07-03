@@ -293,7 +293,7 @@ def main():
             <h1 style="text-align: center;">Artists Showcase</h1>
             <div class="artists-container">
                 <div class="artist-card">
-                    <img src="https://scontent-ber1-1.cdninstagram.com/v/t51.2885-15/46022236_270547913605848_7412623757248725390_n.jpg?stp=dst-jpg_e35&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi45NDh4NzAzLnNkci5mMjg4NSJ9&_nc_ht=scontent-ber1-1.cdninstagram.com&_nc_cat=100&_nc_ohc=D2Y8-1omQtYQ7kNvgE7eh0v&edm=AFg4Q8wBAAAA&ccb=7-5&ig_cache_key=MTkyNjkwOTczNzc3ODk2NjgzMg%3D%3D.2-ccb7-5&oh=00_AYAAeGFjlDwcWB_y69UBEp_7rLwtipPgNvCk92YNwr3Itg&oe=668BAB95&_nc_sid=0b30b7" alt="Artist 1" class="artist-image">
+                    <img src="https://github.com/christianheins/monotor/blob/main/images/46022236_270547913605848_7412623757248725390_n.jpg?raw=true" alt="Artist 1" class="artist-image">
                     <div class="artist-info">
                         <h2 class="artist-name">Artist 1</h2>
                         <p class="artist-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor.</p>
