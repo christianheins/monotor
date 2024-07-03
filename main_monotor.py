@@ -17,9 +17,9 @@ def main():
     import os
     import random
     import time
-    import pyodbc
-    import mysql
-    import mysql.connector as connection
+    #import pyodbc
+    #import mysql
+    #import mysql.connector as connection
     import sqlalchemy
     from supabase import create_client, Client
     from sqlalchemy import create_engine
@@ -31,14 +31,14 @@ def main():
     from streamlit_option_menu import option_menu
     from streamlit_extras.stylable_container import stylable_container
     from st_pages import Page, show_pages, add_page_title, show_pages_from_config
-    from st_aggrid import AgGrid
-    from st_aggrid.grid_options_builder import GridOptionsBuilder
-    from streamlit_card import card
-    import streamlit_authenticator as stauth
-    import streamlit_shadcn_ui as ui
+    #from st_aggrid import AgGrid
+    #from st_aggrid.grid_options_builder import GridOptionsBuilder
+    #from streamlit_card import card
+    #import streamlit_authenticator as stauth
+    #import streamlit_shadcn_ui as ui
     import yaml
     from yaml.loader import SafeLoader
-    import plyer
+    #import plyer
     import altair as alt
     import plotly.express as px
     import json
@@ -46,7 +46,7 @@ def main():
 
 
     ##ads
-    
+
     st.set_page_config(page_title="MAIN", layout="wide", initial_sidebar_state="expanded", menu_items={
         'Get Help': 'https://www.extremelycoolapp.com/help',
         'Report a bug': "https://www.extremelycoolapp.com/bug",
