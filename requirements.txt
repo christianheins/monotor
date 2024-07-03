@@ -17,3 +17,4 @@ scikit-learn>=0.18
 pyairtable>=1.5.0
 fake-useragent
 slack
+slack_sdk
