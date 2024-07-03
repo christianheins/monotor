@@ -171,8 +171,8 @@ def main():
         st.write(ft, unsafe_allow_html=True)
 
 
-        with open(r'/Users/christianheins/Documents/Coding/Projects/Personal_finance/pages/style.css') as f:
-            st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
+        #with open(r'/Users/christianheins/Documents/Coding/Projects/Personal_finance/pages/style.css') as f:
+        #    st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 
         try:
             plyer.notification.notify(title='Streamlit', message=str("Main page reloaded"), timeout=5)
