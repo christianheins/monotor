@@ -231,6 +231,96 @@ def main():
     html_css = html_css_template.format(variable_word, variable_word)
     st.html(html_css)
 
+
+    html = """
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Artists Showcase</title>
+            <style>
+                body {
+                    font-family: 'Arial', sans-serif;
+                    background-color: #f0f0f0;
+                    margin: 0;
+                    padding: 20px;
+                }
+
+                .artists-container {
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    gap: 20px;
+                }
+
+                .artist-card {
+                    background-color: #fff;
+                    border-radius: 10px;
+                    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                    overflow: hidden;
+                    width: 300px;
+                    transition: transform 0.2s;
+                }
+
+                .artist-card:hover {
+                    transform: scale(1.05);
+                }
+
+                .artist-image {
+                    width: 100%;
+                    height: 200px;
+                    object-fit: cover;
+                }
+
+                .artist-info {
+                    padding: 20px;
+                    text-align: center;
+                }
+
+                .artist-name {
+                    font-size: 1.5em;
+                    margin: 10px 0;
+                    color: #333;
+                }
+
+                .artist-description {
+                    color: #777;
+                    line-height: 1.6;
+                }
+            </style>
+        </head>
+        <body>
+            <h1 style="text-align: center;">Artists Showcase</h1>
+            <div class="artists-container">
+                <div class="artist-card">
+                    <img src="artist1.jpg" alt="Artist 1" class="artist-image">
+                    <div class="artist-info">
+                        <h2 class="artist-name">Artist 1</h2>
+                        <p class="artist-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor.</p>
+                    </div>
+                </div>
+
+                <div class="artist-card">
+                    <img src="artist2.jpg" alt="Artist 2" class="artist-image">
+                    <div class="artist-info">
+                        <h2 class="artist-name">Artist 2</h2>
+                        <p class="artist-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor.</p>
+                    </div>
+                </div>
+
+                <div class="artist-card">
+                    <img src="artist3.jpg" alt="Artist 3" class="artist-image">
+                    <div class="artist-info">
+                        <h2 class="artist-name">Artist 3</h2>
+                        <p class="artist-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor.</p>
+                    </div>
+                </div>
+            </div>
+        </body>
+        </html>
+    """
+    st.html(html)
+
     st.image(image, use_column_width=True)
 
     st.html("""
