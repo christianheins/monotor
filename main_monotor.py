@@ -365,6 +365,7 @@ def main():
 
                 .gigs-table td {
                     border-bottom: 1px solid #ddd;
+                    color: orange;
                 }
 
                 .gigs-table tr:last-child td {
