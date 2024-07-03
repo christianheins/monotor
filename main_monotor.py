@@ -28,6 +28,8 @@ def main():
 
     # Front End
     import streamlit as st
+    import streamlit.components.v1 as components
+
     #from streamlit_option_menu import option_menu
     #from streamlit_extras.stylable_container import stylable_container
     from st_pages import Page, show_pages, add_page_title, show_pages_from_config
