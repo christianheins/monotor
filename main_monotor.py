@@ -358,7 +358,7 @@ def main():
 
                 .gigs-table th {
                     background-color: #333;
-                    color: black;
+                    color: yellow;
                     text-transform: uppercase;
                     font-weight: normal;
                 }
