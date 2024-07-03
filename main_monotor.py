@@ -250,7 +250,7 @@ def main():
                     display: flex;
                     flex-wrap: wrap;
                     justify-content: center;
-                    gap: 20px;
+                    gap: 60px;
                 }
 
                 .artist-card {
