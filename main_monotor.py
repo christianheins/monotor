@@ -61,17 +61,17 @@ def main():
     #show_pages_from_config(path)
 
     # Importing credentials
-    with open('/Users/christianheins/Documents/Coding/Projects/Personal_finance/credentials/credentials.yaml') as file:
-        credentials_config = yaml.load(file, Loader=SafeLoader)
-        db_username = credentials_config['local_database']["user"]
-        db_password = credentials_config['local_database']['password']
-        db_host = credentials_config['local_database']['host']
-        db_port = credentials_config['local_database']['port']
-        db_Db = credentials_config['local_database']['database_m']
+    #with open('/Users/christianheins/Documents/Coding/Projects/Personal_finance/credentials/credentials.yaml') as file:
+    #    credentials_config = yaml.load(file, Loader=SafeLoader)
+    #    db_username = credentials_config['local_database']["user"]
+    #    db_password = credentials_config['local_database']['password']
+    #    db_host = credentials_config['local_database']['host']
+    #    db_port = credentials_config['local_database']['port']
+    #    db_Db = credentials_config['local_database']['database_m']
 
-        supabase_url = credentials_config["supabase"]["url"]
-        supabase_key = credentials_config["supabase"]["key"]
-        supabase_database_m = credentials_config["supabase"]["database_m"]
+    #    supabase_url = credentials_config["supabase"]["url"]
+    #    supabase_key = credentials_config["supabase"]["key"]
+    #    supabase_database_m = credentials_config["supabase"]["database_m"]
 
 
     # Project modules
