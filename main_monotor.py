@@ -263,7 +263,7 @@ def main():
                 }
 
                 .artist-card:hover {
-                    transform: scale(1.09);
+                    transform: scale(1.5);
                 }
 
                 .artist-image {
