@@ -173,7 +173,7 @@ def main():
 
         #with open(r'/Users/christianheins/Documents/Coding/Projects/Personal_finance/pages/style.css') as f:
         #    st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
-
+        """
         try:
             plyer.notification.notify(title='Streamlit', message=str("Main page reloaded"), timeout=5)
         except:
@@ -192,7 +192,7 @@ def main():
                 client.chat_postMessage(channel='#page_reloads', text=f"Main page reloaded at: {timestamp_berlin}")
                 print("Sending slack message")
             sendslack()
-
+        """
 
 if __name__ == "__main__":
     main()
