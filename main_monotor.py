@@ -320,6 +320,116 @@ def main():
         </html>
     """
     st.html(html)
+    
+    html = """
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Gig Listings</title>
+            <style>
+                body {
+                    font-family: 'Arial', sans-serif;
+                    background-color: #f0f0f0;
+                    margin: 0;
+                    padding: 20px;
+                }
+
+                h1 {
+                    text-align: center;
+                    color: #333;
+                }
+
+                .gigs-table {
+                    width: 90%;
+                    margin: 20px auto;
+                    border-collapse: collapse;
+                    background-color: #fff;
+                    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                    border-radius: 10px;
+                    overflow: hidden;
+                }
+
+                .gigs-table th, .gigs-table td {
+                    padding: 15px;
+                    text-align: left;
+                }
+
+                .gigs-table th {
+                    background-color: #333;
+                    color: #fff;
+                    text-transform: uppercase;
+                    font-weight: normal;
+                }
+
+                .gigs-table td {
+                    border-bottom: 1px solid #ddd;
+                }
+
+                .gigs-table tr:last-child td {
+                    border-bottom: none;
+                }
+
+                .gigs-table tr:nth-child(even) {
+                    background-color: #f9f9f9;
+                }
+
+                .gigs-table tr:hover {
+                    background-color: #f1f1f1;
+                }
+
+                .gigs-table td:first-child {
+                    font-weight: bold;
+                    color: #333;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>Gig Listings</h1>
+            <table class="gigs-table">
+                <thead>
+                    <tr>
+                        <th>Event Name</th>
+                        <th>Venue Name</th>
+                        <th>Date and Time</th>
+                        <th>City</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Rock Night</td>
+                        <td>The Big Arena</td>
+                        <td>2024-07-16 20:00</td>
+                        <td>New York</td>
+                    </tr>
+                    <tr>
+                        <td>Jazz Festival</td>
+                        <td>City Park</td>
+                        <td>2024-08-05 18:00</td>
+                        <td>Chicago</td>
+                    </tr>
+                    <tr>
+                        <td>Indie Vibes</td>
+                        <td>The Underground Club</td>
+                        <td>2024-09-10 21:00</td>
+                        <td>Los Angeles</td>
+                    </tr>
+                    <tr>
+                        <td>Country Classics</td>
+                        <td>Grand Hall</td>
+                        <td>2024-10-22 19:30</td>
+                        <td>Nashville</td>
+                    </tr>
+                </tbody>
+            </table>
+        </body>
+        </html>
+
+    """
+
+    st.html(html)
+    #
 
     st.image(image, use_column_width=True)
 
