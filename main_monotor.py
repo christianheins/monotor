@@ -216,7 +216,7 @@ def main():
     """
 
     # Word to be inserted as variable
-    variable_word = "MonoTor"
+    variable_word = "MonoTor Presents"
 
     # Format the HTML string with the variable word
     html_css = html_css_template.format(variable_word, variable_word)
