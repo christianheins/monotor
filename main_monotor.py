@@ -54,8 +54,8 @@ def main():
         'Report a bug': "https://www.extremelycoolapp.com/bug",
         'About': "# Welcome to our property listings. This is an *extremely* cool app!"
     })
-
-    with open(r'pages/style.css') as f:
+    #
+    with open(r'styles/style.css') as f:
         st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 
     #import modules
