@@ -264,7 +264,7 @@ def main():
                     display: flex;
                     flex-wrap: wrap;
                     justify-content: center;
-                    gap: 60px;
+                    gap: 120px;
                 }
 
                 .artist-card {
