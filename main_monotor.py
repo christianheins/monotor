@@ -213,7 +213,7 @@ def main():
 
     @st.experimental_fragment
     def return_soundcloudembed():
-        st.markdown(f"<h3 style='text-align: left; color: white;'>Artist Showcase</h3>", unsafe_allow_html=True)
+        st.markdown(f"<h3 style='text-align: left; color: white;'>Curated tunes</h3>", unsafe_allow_html=True)
 
         html = """
         <iframe 
