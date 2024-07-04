@@ -213,7 +213,7 @@ def main():
 
     @st.experimental_fragment
     def return_soundcloudembed():
-        st.subheader("Track o the Week.")
+        st.markdown(f"<h3 style='text-align: left; color: white;'>Artist Showcase</h3>", unsafe_allow_html=True)
 
         html = """
         <iframe 
