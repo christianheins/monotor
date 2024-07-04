@@ -311,7 +311,7 @@ def main():
                 <div class="artist-card">
                     <img src="https://github.com/christianheins/monotor/blob/main/images/435039739_339982482390138_4821613555573842117_n.jpg?raw=true" alt="Artist 3" class="artist-image">
                     <div class="artist-info">
-                        <h2 class="artist-name">Sam</h2>
+                        <h2 class="artist-name">Maniak</h2>
                         <p class="artist-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor.</p>
                     </div>
                 </div>
