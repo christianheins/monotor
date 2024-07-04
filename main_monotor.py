@@ -324,7 +324,15 @@ def main():
                     <img src="https://github.com/christianheins/monotor/blob/main/images/355400358_655713002694553_2090091328426271917_n.jpg?raw=true" alt="Artist 2" class="artist-image">
                     <div class="artist-info">
                         <h2 class="artist-name">Tomeitou</h2>
-                        <p class="artist-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor.</p>
+                        <p class="artist-description">
+                    
+                            I like playing what I like to dance. So that when I play, I dance.“... 
+                            <br>
+                            <br> 
+                            House, Tech House.</p>
+                        
+                        
+                        </p>
                     </div>
                 </div>
 
