@@ -250,7 +250,7 @@ def main():
     image = "images/verguerete4-RED.png"
 
   
-    st.markdown(f"<h3 style='text-align: center; color: white;'>Artist Showcase</h3>", unsafe_allow_html=True)
+    st.markdown(f"<h2 style='text-align: center; color: white;'>Artist Showcase</h2>", unsafe_allow_html=True)
     html = """
         <html lang="en">
         <head>
