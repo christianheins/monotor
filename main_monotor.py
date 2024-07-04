@@ -250,13 +250,12 @@ def main():
     image = "images/verguerete4-RED.png"
 
   
-
+    st.write("Artist sh")
     html = """
         <html lang="en">
         <head>
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title style='color: white;'>Artists Showcase</title>
             <style>
                 body {
                     font-family: 'Arial', sans-serif;
@@ -317,7 +316,7 @@ def main():
                         <h2 class="artist-name">Mono Heins</h2>
                         <p class="artist-description">
                         
-                        Rangeing all the tempos, from low beats to high highs... 
+                        Ranging all the tempos, from low beats to high highs... 
                         <br>
                         <br> 
                         Deep House, Tech House, Progressive House, Minimal, Tropical and Afrobeats.
