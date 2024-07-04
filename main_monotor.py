@@ -315,7 +315,7 @@ def main():
                         Deep House, Tech House, Progressive House, Minimal, Tropical and Afrobeats. 
                         <br>
                         <br> 
-                        I range all the tempos, from low beats to high highs...</p>
+                        Rangeing all the tempos, from low beats to high highs...</p>
                     
                     </div>
                 </div>
