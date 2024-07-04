@@ -312,10 +312,12 @@ def main():
                         <h2 class="artist-name">Mono Heins</h2>
                         <p class="artist-description">
                         
-                        Deep House, Tech House, Progressive House, Minimal, Tropical and Afrobeats. 
+                        Rangeing all the tempos, from low beats to high highs... 
                         <br>
                         <br> 
-                        Rangeing all the tempos, from low beats to high highs...</p>
+                        Deep House, Tech House, Progressive House, Minimal, Tropical and Afrobeats.
+                        
+                        </p>
                     
                     </div>
                 </div>
