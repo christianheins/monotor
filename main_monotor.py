@@ -141,6 +141,75 @@ def main():
 
     st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
+    html_css_template = """
+        <style>
+        * {{
+            box-sizing: border-box;
+        }}
+        
+        :root {{
+            --gold: #ffb338;
+            --light-shadow: #77571d;
+            --dark-shadow: #3e2904;
+        }}
+        body {{
+            margin: 0;
+        }}
+        .wrapper {{
+            background: transparent;
+            display: grid;
+            grid-template-areas: 'overlap';
+            place-content: center;
+            margin-left:3%;
+            text-transform: uppercase;
+        }}
+        .wrapper > div {{
+            background-clip: text;  
+            -webkit-background-clip: text;
+            color: #363833;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 900;
+            font-size: 60px;
+            grid-area: overlap;
+            letter-spacing: 4px;
+            -webkit-text-stroke: 4px transparent;
+        }}
+        div.bg {{
+            background-image: repeating-linear-gradient( 105deg, 
+            var(--gold) 0% , 
+            var(--dark-shadow) 5%,
+            var(--gold) 12%);
+            color: transparent;
+            filter: drop-shadow(5px 15px 15px black);
+            transform: scaleY(1.05);
+            transform-origin: top;
+            text-align: left;
+        }}
+        div.fg{{
+            background-image: repeating-linear-gradient( 5deg,  
+            var(--gold) 0% , 
+            var(--light-shadow) 23%, 
+            var(--gold) 31%);
+            color: #1e2127;
+            transform: scale(1);
+            text-align: left;
+        }}
+        </style>
+        
+        <div class="wrapper">
+            <div class="bg"> {} </div>
+            <div class="fg"> {} </div>
+        </div>
+        """
+
+        # Word to be inserted as variable
+        variable_word = "MonoTor Presents"
+
+        # Format the HTML string with the variable word
+        html_css = html_css_template.format(variable_word, variable_word)
+        st.html(html_css)
+
+
     @st.experimental_fragment
     def return_soundcloudembed():
         html = """
@@ -177,74 +246,7 @@ def main():
     #return_music_player(url=urls[1])
     image = "images/verguerete4-RED.png"
 
-    html_css_template = """
-    <style>
-    * {{
-        box-sizing: border-box;
-    }}
-    
-    :root {{
-        --gold: #ffb338;
-        --light-shadow: #77571d;
-        --dark-shadow: #3e2904;
-    }}
-    body {{
-        margin: 0;
-    }}
-    .wrapper {{
-        background: transparent;
-        display: grid;
-        grid-template-areas: 'overlap';
-        place-content: center;
-        margin-left:3%;
-        text-transform: uppercase;
-    }}
-    .wrapper > div {{
-        background-clip: text;  
-        -webkit-background-clip: text;
-        color: #363833;
-        font-family: 'Poppins', sans-serif;
-        font-weight: 900;
-        font-size: 60px;
-        grid-area: overlap;
-        letter-spacing: 4px;
-        -webkit-text-stroke: 4px transparent;
-    }}
-    div.bg {{
-        background-image: repeating-linear-gradient( 105deg, 
-        var(--gold) 0% , 
-        var(--dark-shadow) 5%,
-        var(--gold) 12%);
-        color: transparent;
-        filter: drop-shadow(5px 15px 15px black);
-        transform: scaleY(1.05);
-        transform-origin: top;
-        text-align: left;
-    }}
-    div.fg{{
-        background-image: repeating-linear-gradient( 5deg,  
-        var(--gold) 0% , 
-        var(--light-shadow) 23%, 
-        var(--gold) 31%);
-        color: #1e2127;
-        transform: scale(1);
-        text-align: left;
-    }}
-    </style>
-    
-    <div class="wrapper">
-        <div class="bg"> {} </div>
-        <div class="fg"> {} </div>
-    </div>
-    """
-
-    # Word to be inserted as variable
-    variable_word = "MonoTor Presents"
-
-    # Format the HTML string with the variable word
-    html_css = html_css_template.format(variable_word, variable_word)
-    st.html(html_css)
-
+  
 
     html = """
         <html lang="en">
