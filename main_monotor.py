@@ -202,12 +202,12 @@ def main():
         </div>
         """
 
-        # Word to be inserted as variable
-        variable_word = "MonoTor Presents"
+    # Word to be inserted as variable
+    variable_word = "MonoTor Presents"
 
-        # Format the HTML string with the variable word
-        html_css = html_css_template.format(variable_word, variable_word)
-        st.html(html_css)
+    # Format the HTML string with the variable word
+    html_css = html_css_template.format(variable_word, variable_word)
+    st.html(html_css)
 
 
     @st.experimental_fragment
