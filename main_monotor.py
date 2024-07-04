@@ -313,6 +313,7 @@ def main():
                         <p class="artist-description">
                         
                         Deep House, Tech House, Progressive House, Minimal, Tropical And Afrobeats. 
+                        <br>
                         <br> 
                         I range all the tempos, from low beats to high highs...</p>
                     
