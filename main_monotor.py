@@ -250,7 +250,7 @@ def main():
     image = "images/verguerete4-RED.png"
 
   
-    st.markdown(f"<h2 style='text-align: center; color: white;'>Artist Showcase</h2>", unsafe_allow_html=True)
+    st.markdown(f"<h1 style='text-align: center; color: white;'>Artist Showcase</h1>", unsafe_allow_html=True)
     html = """
         <html lang="en">
         <head>
@@ -308,7 +308,6 @@ def main():
             </style>
         </head>
         <body>
-            <h1 style="text-align: center;">Artists Showcase</h1>
             <div class="artists-container">
                 <div class="artist-card">
                     <img src="https://github.com/christianheins/monotor/blob/main/images/46022236_270547913605848_7412623757248725390_n.jpg?raw=true" alt="Artist 1" class="artist-image">
