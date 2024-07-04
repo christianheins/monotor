@@ -126,7 +126,6 @@ def main():
         #st_player("https://soundcloud.com/ackssek/gorillaz-clint-eastwood-jack-essek-edit?si=21ebd52700cc4b6db9ab68ef11f71d6c&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing")
     #return_music_player(url=url)
     #st.divider()
-    st.subheader("Track o the Week.")
     
     hide_streamlit_style = """
             <style>
@@ -209,9 +208,10 @@ def main():
     html_css = html_css_template.format(variable_word, variable_word)
     st.html(html_css)
 
-
     @st.experimental_fragment
     def return_soundcloudembed():
+        st.subheader("Track o the Week.")
+
         html = """
         <iframe 
             width="100%"
