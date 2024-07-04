@@ -354,13 +354,14 @@ def main():
     """
     st.html(html)
     #
+    st.markdown(f"<h1 style='text-align: center; color: white;'>Gigs Listings</h1>", unsafe_allow_html=True)
+
     html = """
         <!DOCTYPE html>
         <html lang="en">
         <head>
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>Gig Listings</title>
             <style>
                 body {
                     font-family: 'Arial', sans-serif;
