@@ -310,7 +310,7 @@ def main():
                     <img src="https://github.com/christianheins/monotor/blob/main/images/46022236_270547913605848_7412623757248725390_n.jpg?raw=true" alt="Artist 1" class="artist-image">
                     <div class="artist-info">
                         <h2 class="artist-name">Mono Heins</h2>
-                        <p class="artist-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor.</p>
+                        <p class="artist-description">Deep House, Tech House, Progressive House, Minimal. \n I range all the tempos, from low beats to high highs...</p>
                     </div>
                 </div>
 
