@@ -55,6 +55,9 @@ def main():
         'About': "# Welcome to our property listings. This is an *extremely* cool app!"
     })
 
+    with open(r'pages/style.css') as f:
+        st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
+
     #import modules
     path = "/pages.toml"
     path = "/Users/christianheins/Documents/Coding/Projects/Personal_finance/modules/pages.toml"
@@ -527,9 +530,6 @@ def main():
         """
         st.write(ft, unsafe_allow_html=True)
 
-
-        #with open(r'/Users/christianheins/Documents/Coding/Projects/Personal_finance/pages/style.css') as f:
-        #    st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 
 if __name__ == "__main__":
     main()
