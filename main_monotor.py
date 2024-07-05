@@ -276,7 +276,7 @@ def main():
                     border-radius: 10px;
                     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
                     overflow: hidden;
-                    width: 300px;
+                    width: 370px;
                     transition: transform 0.2s;
                 }
 
@@ -315,7 +315,7 @@ def main():
                         <h2 class="artist-name">Mono Heins</h2>
                         <p class="artist-description">
                         
-                        Rangeing all the tempos, from low beats to high highs... 
+                        Ranging all the tempos, from low beats to high highs... 
                         <br>
                         <br> 
                         Deep House, Tech House, Progressive House, Minimal, Tropical and Afrobeats.
