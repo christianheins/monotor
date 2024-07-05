@@ -276,7 +276,7 @@ def main():
                     border-radius: 10px;
                     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
                     overflow: hidden;
-                    width: 4000px;
+                    width: 300px;
                     transition: transform 0.2s;
                 }
 
@@ -315,7 +315,7 @@ def main():
                         <h2 class="artist-name">Mono Heins</h2>
                         <p class="artist-description">
                         
-                        Ranging all the tempos, from low beats to high highs... 
+                        Rangeing all the tempos, from low beats to high highs... 
                         <br>
                         <br> 
                         Deep House, Tech House, Progressive House, Minimal, Tropical and Afrobeats.
@@ -354,7 +354,7 @@ def main():
     """
     st.html(html)
     #
-    st.markdown(f"<h1 style='text-align: center; color: white;'>Gig Listings</h1>", unsafe_allow_html=True)
+    st.markdown(f"<h1 style='text-align: center; color: white;'>Artist Showcase</h1>", unsafe_allow_html=True)
 
     html = """
         <!DOCTYPE html>
