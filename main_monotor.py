@@ -474,7 +474,7 @@ def main():
 
     """)
     
-    html = """
+    html_new = """
 
         <!DOCTYPE html>
         <html lang="en">
@@ -625,7 +625,7 @@ def main():
 
 
     """
-    st.html(html)
+    st.html(html_new)
 
     with st.sidebar:
         #st.write(f'Welcome *{name}*')
