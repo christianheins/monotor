@@ -610,7 +610,7 @@ def main():
 
         <script>
             function openModal(modalId) {
-                document.getElementById(modalId).style.display = "flex";
+                document.getElementById(modalId).style.display = "block";
             }
 
             function closeModal(modalId) {
