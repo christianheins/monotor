@@ -355,9 +355,8 @@ def main():
     st.html(html)
     #
 
-    st.html("""
-        <h1>Gig Listings</h1>    
-    """)
+    st.markdown(f"<h1 style='text-align: center; color: white;'>Gig Listings</h1>", unsafe_allow_html=True)
+
 
     html = """
         <!DOCTYPE html>
