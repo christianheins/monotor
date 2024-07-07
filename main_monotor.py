@@ -570,15 +570,15 @@ def main():
         <h1>Our Artists</h1>
         <div class="artist-cards">
             <div class="artist-card" onclick="openModal('modal1')">
-                <img src="artist1.jpg" alt="Artist 1">
+                <img src="https://github.com/christianheins/monotor/blob/main/images/435039739_339982482390138_4821613555573842117_n.jpg?raw=true" alt="Artist 1">
                 <h2>Artist 1</h2>
             </div>
             <div class="artist-card" onclick="openModal('modal2')">
-                <img src="artist2.jpg" alt="Artist 2">
+                <img src="https://github.com/christianheins/monotor/blob/main/images/435039739_339982482390138_4821613555573842117_n.jpg?raw=true" alt="Artist 2">
                 <h2>Artist 2</h2>
             </div>
             <div class="artist-card" onclick="openModal('modal3')">
-                <img src="artist3.jpg" alt="Artist 3">
+                <img src="https://github.com/christianheins/monotor/blob/main/images/435039739_339982482390138_4821613555573842117_n.jpg?raw=true" alt="Artist 3">
                 <h2>Artist 3</h2>
             </div>
         </div>
@@ -594,7 +594,7 @@ def main():
 
         <div id="modal2" class="modal">
             <div class="modal-content">
-                <span class="close" onclick="closeModal('modal2')">&times;</span>
+                <span class="close" onclick="x('modal2')">&times;</span>
                 <h2>Artist 2</h2>
                 <p>Details about Artist 2...</p>
             </div>
