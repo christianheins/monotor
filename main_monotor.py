@@ -355,6 +355,10 @@ def main():
     st.html(html)
     #
 
+    st.html("""
+        <h1>Gig Listings</h1>    
+    """)
+
     html = """
         <!DOCTYPE html>
         <html lang="en">
@@ -420,7 +424,6 @@ def main():
             </style>
         </head>
         <body>
-            <h1>Gig Listings</h1>
             <table class="gigs-table">
                 <thead>
                     <tr>
