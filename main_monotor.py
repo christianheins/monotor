@@ -594,7 +594,7 @@ def main():
 
         <div id="modal2" class="modal">
             <div class="modal-content">
-                <span class="close" onclick="x('modal2')">&times;</span>
+                <span class="close" onclick="closeModal('modal2')">&times;</span>
                 <h2>Artist 2</h2>
                 <p>Details about Artist 2...</p>
             </div>
@@ -610,7 +610,7 @@ def main():
 
         <script>
             function openModal(modalId) {
-                document.getElementById(modalId).style.display = "flex";
+                document.getElementById(modalId).style.display = "block";
             }
 
             function closeModal(modalId) {
