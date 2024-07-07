@@ -473,6 +473,159 @@ def main():
         <img src="images/verguerete4-RED.png>
 
     """)
+    
+    html = """
+
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Artists</title>
+            <style>
+                body {
+                    font-family: 'Arial', sans-serif;
+                    background-color: #f0f0f0;
+                    margin: 0;
+                    padding: 20px;
+                }
+
+                h1 {
+                    text-align: center;
+                    color: #333;
+                }
+
+                .artist-cards {
+                    display: flex;
+                    justify-content: space-around;
+                    flex-wrap: wrap;
+                    gap: 20px;
+                    margin-top: 20px;
+                }
+
+                .artist-card {
+                    background-color: #fff;
+                    width: 30%;
+                    padding: 20px;
+                    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                    border-radius: 10px;
+                    text-align: center;
+                    cursor: pointer;
+                    transition: transform 0.2s;
+                }
+
+                .artist-card:hover {
+                    transform: scale(1.05);
+                }
+
+                .artist-card img {
+                    width: 100%;
+                    height: auto;
+                    border-radius: 10px;
+                }
+
+                .artist-card h2 {
+                    margin-top: 10px;
+                    color: #333;
+                }
+
+                .modal {
+                    display: none;
+                    position: fixed;
+                    z-index: 1;
+                    left: 0;
+                    top: 0;
+                    width: 100%;
+                    height: 100%;
+                    overflow: auto;
+                    background-color: rgba(0,0,0,0.5);
+                    justify-content: center;
+                    align-items: center;
+                }
+
+                .modal-content {
+                    background-color: #fff;
+                    margin: auto;
+                    padding: 20px;
+                    border: 1px solid #888;
+                    width: 80%;
+                    max-width: 600px;
+                    border-radius: 10px;
+                    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+                }
+
+                .close {
+                    color: #aaa;
+                    float: right;
+                    font-size: 28px;
+                    font-weight: bold;
+                }
+
+                .close:hover,
+                .close:focus {
+                    color: #000;
+                    text-decoration: none;
+                    cursor: pointer;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>Our Artists</h1>
+            <div class="artist-cards">
+                <div class="artist-card" onclick="openModal('modal1')">
+                    <img src="artist1.jpg" alt="Artist 1">
+                    <h2>Artist 1</h2>
+                </div>
+                <div class="artist-card" onclick="openModal('modal2')">
+                    <img src="artist2.jpg" alt="Artist 2">
+                    <h2>Artist 2</h2>
+                </div>
+                <div class="artist-card" onclick="openModal('modal3')">
+                    <img src="artist3.jpg" alt="Artist 3">
+                    <h2>Artist 3</h2>
+                </div>
+            </div>
+
+            <!-- Modals -->
+            <div id="modal1" class="modal">
+                <div class="modal-content">
+                    <span class="close" onclick="closeModal('modal1')">&times;</span>
+                    <h2>Artist 1</h2>
+                    <p>Details about Artist 1...</p>
+                </div>
+            </div>
+
+            <div id="modal2" class="modal">
+                <div class="modal-content">
+                    <span class="close" onclick="closeModal('modal2')">&times;</span>
+                    <h2>Artist 2</h2>
+                    <p>Details about Artist 2...</p>
+                </div>
+            </div>
+
+            <div id="modal3" class="modal">
+                <div class="modal-content">
+                    <span class="close" onclick="closeModal('modal3')">&times;</span>
+                    <h2>Artist 3</h2>
+                    <p>Details about Artist 3...</p>
+                </div>
+            </div>
+
+            <script>
+                function openModal(modalId) {
+                    document.getElementById(modalId).style.display = "flex";
+                }
+
+                function closeModal(modalId) {
+                    document.getElementById(modalId).style.display = "none";
+                }
+            </script>
+        </body>
+        </html>
+
+
+    """
+    st.html(html)
 
     with st.sidebar:
         #st.write(f'Welcome *{name}*')
