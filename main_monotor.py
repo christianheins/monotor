@@ -626,7 +626,7 @@ def main():
 
     """
 
-    st.html()
+    st.html(html)
 
     with st.sidebar:
         #st.write(f'Welcome *{name}*')
