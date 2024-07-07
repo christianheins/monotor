@@ -469,11 +469,9 @@ def main():
 
     st.image(image, use_column_width=True)
 
-    st.html("""
-
-        <img src="images/verguerete4-RED.png>
-
-    """)
+    #st.html("""
+    #    <img src="images/verguerete4-RED.png>
+    #""")
     
     html_new = """
 
